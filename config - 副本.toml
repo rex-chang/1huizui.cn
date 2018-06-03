@@ -1,0 +1,60 @@
+baseURL = "http://localhost:1313/"
+languageCode = "cn-gbk"
+title = "一回醉"
+disqusShortname = "*****"
+paginate = 5
+
+# [taxonomies]
+# 	tag = "tags"
+# 	tutorial = "tutorials"
+
+[params]
+	# Render the rotating globe in the sidebar
+	showglobe = true
+
+	# Include favicon
+	favicon = "favicon.ico"
+ 	
+	# Google Analytics
+	# analytics = "SHORT-CODE-HERE"
+
+	# Email (optional)
+	email = "alexurquhart@gmail.com"
+	
+	# Header Title for the main page
+	header = "柴门闻犬吠, 风雪夜归人"
+	
+	# Sidebar profile picture
+	profilepic = "avatar.jpg"
+	
+	# Title/subtitle for the sidebar
+	title = "REX CHANG"
+	subtitle = "但一回醉, 一回病, 一回懒, 一回慵"
+	
+	# Social buttons for sidebar
+	# Each of these are optional
+	[[params.socialbuttons]]
+	faicon = "github"
+	url = "https://github.com/alexurquhart"
+	# [[params.socialbuttons]]
+	# faicon = "twitter"
+	# url = "https://twitter.com/alexanderurq"
+	# [[params.socialbuttons]]
+	# faicon = "linkedin"
+	# url = "https://linkedin.com"
+	# [[params.socialbuttons]]
+	# faicon = "google-plus"
+	# url = "https://plus.google.com/+YourID"
+
+	# Nav links below the profile picture
+	[[params.navlinks]]
+	name = "About"
+	url = "about/"
+	
+	[[params.navlinks]]
+	name = "Blog"
+	url = "posts/first"
+	
+	# [[params.navlinks]]
+	# name = "Tutorials"
+	# url = "tutorial/"
