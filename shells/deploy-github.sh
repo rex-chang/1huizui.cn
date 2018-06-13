@@ -8,7 +8,7 @@ cd $basepath/../
 hugo --theme=blackburn --buildDrafts --baseUrl="https://rex-chang.github.io/"
 
 cd public
-
+git pull origin
 git add ./ -A
 
 now=date
