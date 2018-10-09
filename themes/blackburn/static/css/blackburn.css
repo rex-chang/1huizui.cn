@@ -1,0 +1,118 @@
+.header {
+  font-family: "Raleway", Helvetica, Arial, sans-serif
+}
+
+body{
+  /* background-color: #F6F6F6 */
+  /* background-color: #D0E9FF */
+}
+
+blockquote {
+  margin: 1em auto;
+  padding: 0.2em 2em 0.2em 3em;
+  color: #555555;
+  background-color: #F6F6F6;
+  border-left: 4px solid #999;
+  position: relative;
+  line-height: 1.6;
+  font-family: Open Sans;
+  font-style: italic;
+  word-wrap: break-word;
+  border-radius: 0.2em;  
+}
+
+code {
+  background-color: #282b2e;
+  color: #a9b7c6;
+  display: inline;
+  padding:0.05em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-radius: 0.2em;
+  /* border:2px solid; */
+  /* border-radius:25px; */
+}
+table,tr,td, th{
+  border:0.1rem;
+  border-color:black;
+  border-collapse: collapse;
+  background-color: #F6F6F6;
+  border-style: solid;
+  /* padding-block-start: 1rem; */
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+a {
+  color: #3b8bba;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+a:visited {
+  color: #265778;
+}
+
+.small-print {
+  font-size: 0.8em;
+  margin: 0.6em;
+}
+
+.post-meta {
+  font-size: 90%;
+}
+
+article > footer {
+  text-align: right;
+}
+
+.prev-next-post {
+  margin-top: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.prev-next-post .prev {
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+
+.prev-next-post .next {
+  float: right;
+  text-align: right;
+  overflow: hidden;
+}
+
+#menu .brand {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  text-transform: none;
+  background: transparent;
+  text-decoration: none;
+  margin: 0.5em 0;
+}
+
+#menu .pure-menu {
+  font-size: 0.9em;
+}
+
+i {
+  display: inline-block;
+  margin-right: 0.2em;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.pagination a {
+  color: #265778;
+}
