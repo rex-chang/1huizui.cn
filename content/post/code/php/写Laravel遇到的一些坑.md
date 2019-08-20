@@ -1,5 +1,5 @@
 ---
-title: "写Lavavel遇到的一些坑"
+title: "写 Lavavel 遇到的一些坑"
 date: 2018-04-21T01:08:15+08:00
 draft: true
 tags: ['coding', 'php', 'laravel']
