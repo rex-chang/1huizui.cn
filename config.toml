@@ -1,12 +1,13 @@
-baseurl = "https://localhost:1313/"
+baseurl = "https://1huizui.cn/"
 languageCode = "zh-cn"
 # languageCode = "en-us"
 title = "一回醉居"
-theme = "blackburn"
-author = "Rex Chang"
-copyright = "&copy; 2016. All rights reserved."
-canonifyurls = true
-paginate = 10
+theme = "maupassant"
+[author]
+  name = "骑马爬树"
+
+
+
 
 [indexes]
   tag = "tags"
@@ -15,46 +16,58 @@ paginate = 10
 
 [params]
   # Shown in the home page
-  subtitle = "偶尔记点事情"
+  subtitle = "闲来无事, 记点事情"
   brand = "骑马爬树"
+  author = "骑马爬树1"
+  keywords = "打杂的人,php,golang,nodejs"
+  description = "专注于IT互联网，包括但不限于Go语言(golang)、Java、Android、Python、项目管理、抖音分析、软件架构等"
   googleAnalytics = "Your Google Analytics tracking ID"
-  disqus = "Your Disqus shortname"
+  # disqus = "Your Disqus shortname"
   # CSS name for highlight.js
-  highlightjs = "androidstudio"
+  # highlightjs = "androidstudio"
   # highlightjs = "tomorrow-night-eighties"
   dateFormat = "02 Jan 2006, 15:04"
   icon="favicon.ico"
+  toc = true
+
 
 [menu]
   # Shown in the side menu.
-  [[menu.main]]
-    name = "首页"
-    pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 1
-    identifier = "home"
-    url = "/"
-  [[menu.main]]
-    name = "文章"
-    pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 2
-    identifier = "post"
-    url = "/post/"
+  # [[menu.main]]
+  #   name = "首页"
+  #   pre = "<i class='fa fa-home fa-fw'></i>"
+  #   weight = 1
+  #   identifier = "home"
+  #   url = "/"
+  # [[menu.main]]
+  #   name = "文章"
+  #   pre = "<i class='fa fa-list fa-fw'></i>"
+  #   weight = 2
+  #   identifier = "post"
+  #   url = "/post/"
   [[menu.main]]
     name = "分类"
-    pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 3
+    # pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 1
     identifier = "categories"
     url = "/categories/"
   [[menu.main]]
     name = "标签"
-    pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 4
+    # pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
     identifier = "tags"
     url = "/tags/"  
   [[menu.main]]
+    name = " 归档"
+    # pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 3
+    identifier = "archives"
+    url = "/archives/"
+
+  [[menu.main]]
     name = "关于"
-    pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 5
+    # pre = "<i class='fa fa-user fa-fw'></i>"
+    weight =  4
     identifier = "about"
     url = "/about/"
   # [[menu.main]]
@@ -62,6 +75,10 @@ paginate = 10
   #   pre = "<i class='fa fa-phone fa-fw'></i>"
   #   weight = 4
   #   url = "/contact/"
+# [[params.links]]
+#   title = "codings.com"
+#   name = "Android Gradle权威指南"
+#   url = "http://yuedu.baidu.com/ebook/14a722970740be1e640e9a3e"
 
 [social]
   # Link your social networking accouns to the side menu
@@ -73,8 +90,8 @@ paginate = 10
   coding = "rex-chang"
   # stackoverflow = "*"
   # linkedin = "*"
-[blackfriday]
-  angledQuotes = true
-  extensions = ["hardLineBreak"]
-  fractions = false
+# [blackfriday]
+#   angledQuotes = true
+#   extensions = ["hardLineBreak"]
+#   fractions = false
   

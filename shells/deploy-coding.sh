@@ -5,7 +5,8 @@ basepath=$(cd `dirname $0`; pwd)
 cd $basepath/../
 
 #build 
-hugo --theme=blackburn --buildDrafts --baseUrl="https://1huizui.cn/"
+hugo  --buildDrafts --baseUrl="https://1huizui.cn/"
+# hugo --theme=blackburn --buildDrafts --baseUrl="https://1huizui.cn/"
 
 cd public
 

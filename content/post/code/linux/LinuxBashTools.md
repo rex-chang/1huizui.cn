@@ -1,10 +1,10 @@
 ---
 title: "Linux 命令行工具"
-date: 2019-08-22T01:08:15+08:00
+date: 2019-08-20T01:08:15+08:00
 draft: true
 tags: ['ops']
 categories: ["码夫"]  
-# toc : true
+toc : true
 ---
 
 最近经常向人推荐一些小工具, 发现自己对自己手头上的工具并没有很好的整理, 因此, 简单记一下目前用到的工具及其下载链接.
@@ -15,6 +15,7 @@ categories: ["码夫"]
 
 > https://github.com/rupa/z
 
+<!--more-->
 ## 命令手册：tldr
 
 > https://github.com/tldr-pages/tldr
@@ -27,7 +28,9 @@ categories: ["码夫"]
 
 有代码提示的数据库命令行工具
 
-> pip install mycli
+```bash 
+pip install mycli
+``` 
 
 ## jq
 
