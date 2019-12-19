@@ -16,4 +16,4 @@ now=date
 
 git commit -m "deploy at $now"
 
-git push -u  coding_origin master
+git push -u  aurora-origin master
